@@ -12,7 +12,7 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "REPLACE_ME"
+    organization = "William-Hashicorp"
 
     workspaces {
       name = "gh-actions-demo"
@@ -20,6 +20,7 @@ terraform {
   }
 }
 
+#add something here
 provider "aws" {
   region = "us-west-2"
 }
